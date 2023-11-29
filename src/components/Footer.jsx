@@ -1,6 +1,6 @@
 import '../css/Footer.css';
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 
 export default function Footer() {
   return(

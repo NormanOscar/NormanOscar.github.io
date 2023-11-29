@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Footer from "../components/Footer";
 import projectJSON from '../json/projects.json';
@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project() {
-  const { projectId } = useParams();
+  const projectId = JSON.parse(localStorage.getItem('projectID'));
   const [project, setProject] = useState(null);
   const navigate = useNavigate(); // Initialize useNavigate
 

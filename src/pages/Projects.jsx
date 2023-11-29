@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 import projectJSON from '../json/projects.json';
@@ -9,9 +9,10 @@ export default function Projects() {
 
   const handleCardClick = (e) => {
     const cardValue = e.currentTarget.getAttribute("data-value");
+    localStorage.setItem('projectID', cardValue);
 
     // Navigate to the /project route with the project's ID
-    navigate(`/project/${cardValue}`);
+    navigate('/project');
   };
 
   return (

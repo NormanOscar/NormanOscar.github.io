@@ -1,6 +1,6 @@
 import "../css/Contact.css";
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 

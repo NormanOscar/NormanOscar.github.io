@@ -1,8 +1,8 @@
 // Components/NavBar.js
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import '../css/NavBar.css'
-import { Link, animateScroll as scrollSpy } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 export default function NavBar() {
   const [color, setColor] = useState(false);
