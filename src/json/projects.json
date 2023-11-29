@@ -14,7 +14,7 @@
       "images": [
         "/wildfire/wildfire_main.png"
       ],
-      "demo": "../src/game/index.html",
+      "demo": "/game/index.html",
       "github": "https://github.com/NormanOscar/WildFire"
     },
     {
