@@ -10,7 +10,7 @@ export default function About() {
           <Row className="d-flex justify-content-center align-items-center">
             <Col xs={12} md={6} className="text-center mb-4">
               <Image
-                src="src/assets/portrait.png"
+                src="/portrait.png"
                 alt="portrait of me"
                 style={{ width: '50%' }}
                 roundedCircle={true}
