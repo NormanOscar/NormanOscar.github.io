@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import BackgroundImg from '../assets/background2.svg';
+import BackgroundImg from '/background.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 import '../css/LandingPage.css';
