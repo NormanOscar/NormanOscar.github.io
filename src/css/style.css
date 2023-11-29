@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-color: rgb(8, 8, 8);
+}
+
+.about-page {
+  padding: 20px;
+}
+
+.icons {
+  font-size: 3em;
+}
+
+/* ProjectSection.css */
+.zoom-image {
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.zoom-image img {
+  transition: transform 0.3s;
+}
+
+.project-card {
+  max-width: '100%';
+  background-color: rgb(2, 2, 2);
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.project-card:hover img {
+  transform: scale(1.1); /* Adjust the scale factor for the desired zoom level */
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.project-card:hover .card-title {
+  text-decoration: underline;
+}
+
+.scroll-up-btn, .go-back-btn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  padding: 1em;
+  background-color: rgba(10, 0, 74, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-up-btn {
+  bottom: 30px;
+  right: 30px;
+}
+
+.go-back-btn {
+  top: 30px;
+  left: 30px;
+}
+
+.scroll-up-btn:hover, .go-back-btn:hover {
+  background-color: rgba(10, 0, 74, 1);
+}

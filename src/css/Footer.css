@@ -1,0 +1,9 @@
+.footer-icons {
+  padding: 0 5px 0 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.footer-icons:hover {
+  color: rgb(192, 192, 192);
+}

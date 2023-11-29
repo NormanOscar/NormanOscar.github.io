@@ -1,0 +1,117 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "WildFire",
+      "category": "Game development",
+      "technologies": [
+        "JavaScript",
+        "Electron",
+        "Rune SDK"
+      ],
+      "shortDescription": "JavaScript Game",
+      "description": "Wildfire is a top-down arcade game created entirely with JavaScript. This project was developed as an assignment for the course “Project Course 2 in Media Technologies”. The game is built using vanilla JavaScript in conjunction with the Electron framework. An SDK, specifically the Rune SDK, was utilized to achieve the look and mechanics of the game. The Rune SDK is a free, object-oriented framework inspired by Adobe Flash/Adobe AIR, designed for creating raster-based, two-dimensional applications and games using JavaScript. It is primarily developed to be executed within Electron.",
+      "images": [
+        "src/assets/wildfire/wildfire_main_1.png"
+      ],
+      "demo": "../src/game/index.html",
+      "github": "https://github.com/NormanOscar/WildFire"
+    },
+    {
+      "id": 2,
+      "name": "RunRunRun",
+      "category": "App development",
+      "technologies": [
+        "JavaScript",
+        "React Native"
+      ],
+      "shortDescription": "React Native",
+      "description": "RunRunRun is a cross-platform mobile application used for tracking and saving running or walking activities. The application is built with JavaScript and React Native. React Native was used to create a shared codebase between the platform i.e. iOS and Android. The app is run locally on the device by saving every activity locally within the application. The application is currently under development and not yet available to the public.",
+      "images": [
+        "src/assets/RunRunRun/RunRunRun0_1.png",
+        "src/assets/RunRunRun/RunRunRun1_1.png",
+        "src/assets/RunRunRun/RunRunRun2_1.png"
+      ],
+      "demo": "",
+      "github": "https://github.com/NormanOscar/RunRunRun"
+    },
+    {
+      "id": 3,
+      "name": "Weather App",
+      "category": "App development",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "OpenWeatherMap API"
+      ],
+      "shortDescription": "Flutter/Dart",
+      "description": "This project consists of a mobile weather application designed to identify the weather at the user's current location and external locations that can be searched. The application was created as the final project for the course “Introduction to App Development with Flutter” taken at Linnaeus University. The weather application is a cross-platform application built with Dart and Flutter, integrated with the OpenWeatherMap API. Please note that the application is currently under development and is not yet available to the public.",
+      "images": [
+        "src/assets/weather_app/weather_app0_1.png",
+        "src/assets/weather_app/weather_app1_1.png",
+        "src/assets/weather_app/weather_app2_1.png"
+      ],
+      "demo": "",
+      "github": "https://github.com/NormanOscar/flutterWeatherApp"
+    },
+    
+    {
+      "id": 4,
+      "name": "Movie Quiz",
+      "category": "Game/Web development",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Electron",
+        "API"
+      ],
+      "shortDescription": "API based game",
+      "description": "This project consists of an interactive quiz game developed using Electron, HTML, CSS, and JavaScript. Immerse yourself in the cinematic world with four unique challenges: identify movies from still images, match quotes to films, guess movies from taglines, and guess the film from a list of the biggest actors and actresses. Enhanced by real-time movie data APIs, this cross-platform game offers an immersive and diverse quiz adventure. Please note that the project is currently in development, and it is not fully complete or available to the public yet.",
+      "images": [
+        "src/assets/movie_quiz/movie_quiz0_1.png",
+        "src/assets/movie_quiz/movie_quiz1_1.png"
+      ],
+      "demo": "",
+      "github": "https://github.com/NormanOscar/Normans-Movie-Quiz"
+    },
+    {
+      "id": 5,
+      "name": "Museum of Småland",
+      "category": "Web development",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "shortDescription": "Navigational map",
+      "description": "This project, developed as part of the “Interaction Design 2” course at Linnaeus University, consists of an interactive navigational map designed exclusively for the Museum of Småland in Växjö, Sweden. Created using HTML, CSS, and JavaScript, the map serves as a user-friendly guide for visitors. It provides an intuitive interface to explore museum sections, click on exhibits for detailed information, and stay updated on upcoming events. The navigational map is tailored for an interactive display and specifically developed for a resolution of 1920x1080 pixels. Please note that this project is not available to the public; it is a student assignment completed for the “Interaction Design 2” course.",
+      "images": [
+        "src/assets/smalands_museum/smalands_museum0_1.png",
+        "src/assets/smalands_museum/smalands_museum1_1.png"
+      ],
+      "demo": "",
+      "github": "https://github.com/NormanOscar/Smalands_museum_map"
+    },
+    {
+      "id": 6,
+      "name": "DeteLunch",
+      "category": "Web development",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SMAPI API"
+      ],
+      "shortDescription": "Lunch search engine",
+      "description": "DeteLunch is a web development venture that invites you to explore the rich culinary scene of Småland and Öland. Developed entirely using HTML, CSS, and JavaScript, this project integrates seamlessly with the SMAPI API from smapi.lnu.se. Crafted as part of the course “Project Course 1 in Media Technologies”. DeteLunch allows you not only to discover local favorites but also to extend a lunch invitation to friends. Explore, invite, and savor the flavors of Småland & Öland with DeteLunch!",
+      "images": [
+        "src/assets/det_e_lunch/det_e_lunch0_1.png",
+        "src/assets/det_e_lunch/det_e_lunch1_1.png",
+        "src/assets/det_e_lunch/det_e_lunch2_1.png"
+      ],
+      "demo": "https://detelunch.netlify.app/",
+      "github": "https://github.com/NormanOscar/DeteLunch"
+    }
+  ]
+}
