@@ -12,7 +12,9 @@
       "shortDescription": "JavaScript Game",
       "description": "Wildfire is a top-down arcade game created entirely with JavaScript. This project was developed as an assignment for the course “Project Course 2 in Media Technologies”. The game is built using vanilla JavaScript in conjunction with the Electron framework. An SDK, specifically the Rune SDK, was utilized to achieve the look and mechanics of the game. The Rune SDK is a free, object-oriented framework inspired by Adobe Flash/Adobe AIR, designed for creating raster-based, two-dimensional applications and games using JavaScript. It is primarily developed to be executed within Electron.",
       "images": [
-        "/wildfire/wildfire_main.png"
+        "/wildfire/wildfire0.png",
+        "/wildfire/wildfire1.png",
+        "/wildfire/wildfire2.png"
       ],
       "demo": "/game/index.html",
       "github": "https://github.com/NormanOscar/WildFire"
