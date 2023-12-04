@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import projectJSON from '../json/projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import "../css/project.css";
 
 export default function Project() {
   const projectId = JSON.parse(localStorage.getItem('projectID'));
@@ -47,7 +48,7 @@ export default function Project() {
       <Container className="text-light" style={{ paddingTop: '150px', paddingBottom: '100px' }}>
         <Row style={{ paddingBottom: '100px' }}>
           <Col>
-            <h1>{project.name} - {project.shortDescription}</h1>
+            <h1 style={{textAlign: 'center'}}>{project.name} - {project.shortDescription}</h1>
           </Col>
         </Row>
         <Row style={{ paddingBottom: '100px'}}>
@@ -56,10 +57,16 @@ export default function Project() {
           </Col>
           <Col xs={12} md={6} className="d-flex flex-column align-items-start" style={{paddingLeft: '30px', paddingRight: '30px'}}>
             <h5>Technologies</h5>
-            <p>{project.technologies.join(', ')}</p>
+            <p>
+              {
+                project.technologies.map((tech, index) => (
+                  tech.link !== "" ? <span key={index}><a target="_blank" href={tech.link}>{index == project.technologies.length - 1 ? tech.name : tech.name + ", "}</a></span> : <span key={index}>{index == project.technologies.length - 1 ? tech.name : tech.name + ", "}</span>
+                ))
+              }
+            </p>
             <Col xs={12} className="d-flex justify-content-start">
               {project.demo !== "" && 
-                <Button href={project.demo} target="_blank" style={{marginRight: '10px'}}>Live demo</Button>
+                <Button href={project.demo} target="_blank" className="liveBtn">Live demo</Button>
               }
               <a className="devicon-github-original footer-icons" target="_blank" href={project.github}/>
             </Col>
