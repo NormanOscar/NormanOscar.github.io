@@ -112,7 +112,9 @@
       "description": "This project consists of an interactive quiz game developed using Electron, HTML, CSS, and JavaScript. Immerse yourself in the cinematic world with four unique challenges: identify movies from still images, match quotes to films, guess movies from taglines, and guess the film from a list of the biggest actors and actresses. Enhanced by real-time movie data APIs, this cross-platform game offers an immersive and diverse quiz adventure. Please note that the project is currently in development, and it is not fully complete or available to the public yet.",
       "images": [
         "/movie_quiz/movie_quiz0.png",
-        "/movie_quiz/movie_quiz1.png"
+        "/movie_quiz/movie_quiz1.png",
+        "/movie_quiz/movie_quiz2.png",
+        "/movie_quiz/movie_quiz3.png"
       ],
       "demo": "",
       "github": "https://github.com/NormanOscar/Normans-Movie-Quiz"
